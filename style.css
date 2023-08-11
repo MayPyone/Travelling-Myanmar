@@ -1,0 +1,50 @@
+.head {
+  margin-left: 50%;
+  display: flex;
+  width: 45%;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.head a:hover {
+  background-color: rgba(255, 255, 0, 0.139);
+  transform: translateY(-0.3rem);
+}
+
+.logo {
+  margin-left: 2%;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  color: rgba(255, 0, 0, 0.805);
+}
+
+.home {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(image/bagan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: bchange 13s infinite alternate;
+  color: white;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.home h1 {
+  padding-top: 25%;
+  text-align: center;
+  font-size: 60px;
+}
+
+@keyframes bchange {
+  0%{ background-image: url(image/bagan.jpg); color: black}
+  10% {background-image: url(image/beach.jpg)}
+  20%{ background-image: url(image/taungwine.jpg); color: white;}
+  30%{background-image: url(image/kyaikhteeyoe.jpg);}
+  40%{background-image: url(image/themoat.jpg);}
+  50%{background-image: url(image/inlaylake.jpg);}
+  60%{background-image: url(image/UBein.jpg);color: white;}
+  70%{background-image: url(image/puppet.jpg);}
+  80%{background-image: url(image/padaung.jpg);}
+  90%{background-image: url(image/bullockcart.jpg);}
+  100%{background-image: url(image/thanatkha.jpg);}
+} 
